@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAME NAME - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+        .card-container {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        .header-bg {
+            background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Main Page Container -->
+    <div class="container mx-auto p-4 sm:p-8 lg:p-12">
+
+        <!-- Header Section -->
+        <header class="header-bg text-white rounded-2xl shadow-xl p-8 mb-12 text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4">Chase Riley</h1>
+            <h2 class="text-xl sm:text-2xl font-semibold mb-6">
+                Portfolio for Engineering with Artificial Intelligence
+            </h2>
+            <div class="max-w-2xl mx-auto text-lg leading-relaxed">
+                <p>Welcome to my portfolio! Here you'll find a collection of my projects from the Engineering with AI program at Tufts University, Summer 2025, Session 2. I'm passionate about the intersection of engineering and artificial intelligence, and these projects represent my learning and experimentation in the field. Below are some of the key projects I've worked on.</p>
+                <!-- This is a placeholder for your personal information. You can edit this text directly. -->
+            </div>
+        </header>
+
+        <!-- Projects Section -->
+        <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Project Card Template -->
+            <a href="paper-airplanes.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">Paper Airplanes</h3>
+                    <p class="text-gray-600">
+                        An exploration of physical design and AI-generated instructions.
+                    </p>
+                </div>
+            </a>
+
+            <a href="two-truths-lie.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">Two Truths and a Lie / Spreadsheet</h3>
+                    <p class="text-gray-600">
+                        Using LLMs to generate creative content and populate a spreadsheet.
+                    </p>
+                </div>
+            </a>
+
+            <a href="coaster-activity.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">Coaster Activity</h3>
+                    <p class="text-gray-600">
+                        A project focused on generating product designs using AI.
+                    </p>
+                </div>
+            </a>
+
+            <a href="smartmotor.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">SmartMotor/Rube Goldberg</h3>
+                    <p class="text-gray-600">
+                        An intuitive tool to demonstrate how different sensors work.
+                    </p>
+                </div>
+            </a>
+
+            <a href="ckd-activity.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">CKD Activity</h3>
+                    <p class="text-gray-600">
+                        Analyzing health data to predict chronic kidney disease.
+                    </p>
+                </div>
+            </a>
+
+            <a href="re-coding-smartmotor.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">Re-Coding SmartMotor</h3>
+                    <p class="text-gray-600">
+                        Further development and exploration of the SmartMotor project.
+                    </p>
+                </div>
+            </a>
+
+            <a href="biases.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">Biases in Algorithms</h3>
+                    <p class="text-gray-600">
+                        Examining the perpetuation of human biases in AI algorithms.
+                    </p>
+                </div>
+            </a>
+
+            <a href="llms-latent-space.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">LLMs and Latent Space</h3>
+                    <p class="text-gray-600">
+                        Understanding how LLMs find similarity and proximity in data.
+                    </p>
+                </div>
+            </a>
+
+            <a href="reinforcement-learning.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">Reinforcement Learning</h3>
+                    <p class="text-gray-600">
+                        Adjusting model parameters to improve learning and performance.
+                    </p>
+                </div>
+            </a>
+            <a href="eco-logist.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">Environmental Impact Estimate</h3>
+                    <p class="text-gray-600">
+                        Analyzing the energy consumption and GHG emissions of AI prompts.
+                    </p>
+                </div>
+            </a>
+            <a href="scarlett-johansson.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">Scarlett Johansson vs. OpenAI</h3>
+                    <p class="text-gray-600">
+                        A debate on the ethical implications of voice cloning and AI likeness.
+                    </p>
+                </div>
+            </a>
+            <a href="grem.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">GREM</h3>
+                    <p class="text-gray-600">
+                        A whiteboard activity to categorize harmful and fixable AI biases.
+                    </p>
+                </div>
+            </a>
+            <a href="rock-paper-scissors.html" class="card-container block">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold mb-2">Rock Paper Scissors w/ LLM</h3>
+                    <p class="text-gray-600">
+                        Building an interactive game with an LLM that provides "quippy" responses.
+                    </p>
+                </div>
+            </a>
+
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="text-center text-gray-500 mt-12">
+            <p>&copy; 2025 Chase Riley. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
