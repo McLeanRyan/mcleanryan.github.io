@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Airplanes - Chase Riley</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Project Page Container -->
+    <div class="container mx-auto p-4 sm:p-8 lg:p-12 max-w-4xl">
+
+        <!-- Back Button -->
+        <a href="index.html" class="inline-block mb-8 text-blue-600 hover:text-blue-800 transition-colors duration-300">
+            &larr; Back to Portfolio
+        </a>
+
+        <!-- Project Header -->
+        <header class="bg-white rounded-xl shadow-md p-6 mb-8">
+            <h1 class="text-4xl sm:text-5xl font-bold mb-2">Paper Airplanes</h1>
+            <p class="text-gray-600 text-lg">
+                An exploration of physical design and AI-generated instructions.
+            </p>
+        </header>
+
+        <!-- Project Content -->
+        <div class="bg-white rounded-xl shadow-md p-6">
+            <!-- Image Placeholder -->
+            <div class="mb-6 rounded-lg overflow-hidden">
+                <!-- Replace with an image related to the project -->
+                <img src="https://placehold.co/800x450/e5e7eb/4b5563?text=Paper+Airplanes+Image" alt="Paper Airplanes Project" class="w-full h-auto object-cover">
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">Description</h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>
+                    This project involved following AI-generated instructions to build a paper airplane. The instructions were generally clear, but there was a slight ambiguity in the first step regarding the initial fold direction ("hamburger" vs. "hotdog"). After clarifying this step, I was able to successfully create a classic paper airplane. This activity highlighted the importance of clear, unambiguous instructions, even from an AI, and the process of interpreting and refining those instructions to achieve a physical outcome.
+                </p>
+                <h3 class="text-xl font-semibold mt-6 mb-2">Steps Taken:</h3>
+                <ol class="list-decimal list-inside space-y-2">
+                    <li>Fold the paper in half lengthwise.</li>
+                    <li>Create the nose of the plane by folding the top corners down to the center crease.</li>
+                    <li>Refine the nose by folding the angled edges down again.</li>
+                    <li>Fold the plane in half along the original center crease.</li>
+                    <li>Form the wings by folding the top edges down to align with the bottom.</li>
+                    <li>Adjust the wings slightly to aid with lift and stability.</li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
